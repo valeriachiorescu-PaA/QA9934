@@ -1,0 +1,9 @@
+@inherits PlantAnApp.Dnn.Tokens.Razor.RazorTemplate
+@{
+	var ChangeType=TknParams.ChangeType.Value.ToString(); 
+  if(ChangeType=="Breaking Change")
+  	@: <span style="color: red; font-weight: bold;">Breaking Change</span>
+  else
+  	@ChangeType
+
+}

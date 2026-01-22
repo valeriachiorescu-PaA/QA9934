@@ -1,0 +1,23 @@
+{
+  "globalId": "8d0b3710-2b66-4c1d-b616-177275cb4e81",
+  "namespace": {
+    "globalId": "a0b260e2-ac07-4129-bdcb-ddec1aebbb35",
+    "name": "PAASysUpdates",
+    "description": "",
+    "isSystem": true
+  },
+  "name": "GetUpdatesWFGUID",
+  "description": "",
+  "defaultValue": "",
+  "cacheTimeSec": 0,
+  "cacheLayer": "global",
+  "replaceTokens": false,
+  "decodeHtml": false,
+  "stripHtmlTags": false,
+  "src": {
+    "type": "db",
+    "sql": "SELECT GlobalId FROM dbo.{objectQualifier}PlantAnApp_Workflows_Workflows\r\nWHERE Name = 'Get App Builder Updates'",
+    "connStr": "",
+    "params": []
+  }
+}

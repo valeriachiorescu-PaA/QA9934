@@ -1,0 +1,26 @@
+{
+  "globalId": "d4bdc1ce-b4da-4b0f-a5de-2d386d64d878",
+  "namespace": {
+    "globalId": "a0b260e2-ac07-4129-bdcb-ddec1aebbb35",
+    "name": "PAASysUpdates",
+    "description": "",
+    "isSystem": true
+  },
+  "name": "GetMajorUpdate",
+  "description": "",
+  "defaultValue": "",
+  "cacheTimeSec": 0,
+  "cacheLayer": "global",
+  "replaceTokens": false,
+  "decodeHtml": false,
+  "stripHtmlTags": false,
+  "src": {
+    "type": "execworkflow",
+    "workflowUid": "638eecc4-551a-4d81-8f2d-a289a98c3b32",
+    "defaultOutputField": "Version",
+    "params": [
+      "CurrentVersion",
+      "IsDev"
+    ]
+  }
+}

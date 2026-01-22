@@ -1,0 +1,23 @@
+{
+  "globalId": "f1fc6758-3aef-4210-932a-03c29a3ab5d4",
+  "namespace": {
+    "globalId": "a0b260e2-ac07-4129-bdcb-ddec1aebbb35",
+    "name": "PAASysUpdates",
+    "description": "",
+    "isSystem": true
+  },
+  "name": "CurrentEnvId",
+  "description": "",
+  "defaultValue": "",
+  "cacheTimeSec": 0,
+  "cacheLayer": "global",
+  "replaceTokens": false,
+  "decodeHtml": false,
+  "stripHtmlTags": false,
+  "src": {
+    "type": "db",
+    "sql": "SELECT EnvId FROM dbo.{objectQualifier}PlantAnApp_Configuration_Environment\r\nWHERE PortalId = '[Portal:PortalId]'",
+    "connStr": "",
+    "params": []
+  }
+}

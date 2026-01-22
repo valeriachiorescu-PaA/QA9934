@@ -1,0 +1,28 @@
+{
+  "globalId": "45488827-3312-445e-a199-58fdfed2f22c",
+  "namespace": {
+    "globalId": "9b4d34ae-ebea-452a-a521-510ea5f3b9e3",
+    "name": "PAASysDocuments",
+    "isSystem": true
+  },
+  "name": "RenderIcon",
+  "description": "",
+  "defaultValue": "",
+  "cacheTimeSec": 0,
+  "cacheLayer": "global",
+  "replaceTokens": false,
+  "decodeHtml": false,
+  "stripHtmlTags": false,
+  "src": {
+    "type": "razor",
+    "compiledRazorLocation": "host",
+    "assemblies": "",
+    "debugScript": false,
+    "lang": "csharp",
+    "language": "csharp",
+    "params": [
+      "Extension",
+      "FolderProvider"
+    ]
+  }
+}

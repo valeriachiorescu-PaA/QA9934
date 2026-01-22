@@ -1,0 +1,23 @@
+{
+  "globalId": "f75a5a10-c3c2-4374-99ac-4c227c32aca1",
+  "namespace": {
+    "globalId": "a0b260e2-ac07-4129-bdcb-ddec1aebbb35",
+    "name": "PAASysUpdates",
+    "description": "",
+    "isSystem": true
+  },
+  "name": "LastVersionReleased",
+  "description": "",
+  "defaultValue": "",
+  "cacheTimeSec": 0,
+  "cacheLayer": "global",
+  "replaceTokens": false,
+  "decodeHtml": false,
+  "stripHtmlTags": false,
+  "src": {
+    "type": "execworkflow",
+    "workflowUid": "a19e4122-fe9f-46c6-8670-419b3f0eec92",
+    "defaultOutputField": "Version",
+    "params": []
+  }
+}

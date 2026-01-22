@@ -1,0 +1,11 @@
+{
+  "Id": 4,
+  "GlobalId": "0c8f426d-6668-4bfa-b0e7-bfe17ff379de",
+  "BuiltInEntityType": "Images",
+  "Properties": [
+    {
+      "Name": "FileName",
+      "GlobalId": "c578f34f-c686-4fb9-a213-c41932d857e3"
+    }
+  ]
+}

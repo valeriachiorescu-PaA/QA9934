@@ -1,0 +1,23 @@
+{
+  "globalId": "475d9330-e047-4467-b7c6-1f9a91b8fd7e",
+  "namespace": {
+    "globalId": "a0b260e2-ac07-4129-bdcb-ddec1aebbb35",
+    "name": "PAASysUpdates",
+    "description": "",
+    "isSystem": true
+  },
+  "name": "CheckIfAppIsDev",
+  "description": "",
+  "defaultValue": "",
+  "cacheTimeSec": 60,
+  "cacheLayer": "global",
+  "replaceTokens": false,
+  "decodeHtml": false,
+  "stripHtmlTags": false,
+  "src": {
+    "type": "execworkflow",
+    "workflowUid": "aa60ba3d-03da-4d3a-b4ae-3d8328642a23",
+    "defaultOutputField": "IsDev",
+    "params": []
+  }
+}

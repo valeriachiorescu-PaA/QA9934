@@ -1,0 +1,23 @@
+{
+  "globalId": "bf73cdf4-f563-4670-a5e9-1251e964a91b",
+  "namespace": {
+    "globalId": "a0b260e2-ac07-4129-bdcb-ddec1aebbb35",
+    "name": "PAASysUpdates",
+    "description": "",
+    "isSystem": true
+  },
+  "name": "ActualModuleVersion",
+  "description": "",
+  "defaultValue": "",
+  "cacheTimeSec": 0,
+  "cacheLayer": "global",
+  "replaceTokens": false,
+  "decodeHtml": false,
+  "stripHtmlTags": false,
+  "src": {
+    "type": "db",
+    "sql": "SELECT Version\nFROM {objectQualifier}Packages\nWHERE FriendlyName = '[TknParams:FriendlyName]'",
+    "connStr": "",
+    "params": []
+  }
+}
